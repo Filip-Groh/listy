@@ -3,34 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UL - Tag</title>
 </head>
 <body>
-    <menu>
-        <li><a href="./page1.html">ol - tag</a></li>
-        <li><a href="./page2.html">menu - tag</a></li>
-    </menu>
-    <h1>ul - tag</h1>
-    <h2>Příklad ul tagu</h2>
-    <ul>
-        <li>Položka 1</li>
-        <li>Položka 2</li>
-        <li>Položka 3</li>
-        <li>Položka 4</li>
-        <li>
-            Položka 5
-            <ul>
-                <li>Podpoložka 1</li>
-                <li>Podpoložka 2</li>
-                <li>Podpoložka 3</li>
-                <li>Podpoložka 4</li>
-            </ul>
-        </li>
-    </ul>
-    <p>Každé ul tag může mít pouze li tag v sobě</p>
-    <p>Pro vytvoření podpoložek použijeme li tag s předchozí položkou a následně vložíme další ul tag</p>
-    <p>Příklad kódu:<br>
-        <code>
+    <header>
+        <nav>
+            <menu>
+                <li><a href="./page1.html">ol - tag</a></li>
+                <li><a href="./page2.html">menu - tag</a></li>
+            </menu>
+        </nav>
+        <h1>ul - tag</h1>
+    </header>
+    <article>
+        <section>
+            <h2>Příklad ul tagu</h2>
             <ul>
                 <li>Položka 1</li>
                 <li>Položka 2</li>
@@ -46,7 +33,35 @@
                     </ul>
                 </li>
             </ul>
-        </code>
-    </p>
+        </section>
+        <section>
+            <p>Každé ul tag může mít pouze li tag v sobě</p>
+            <p>Pro vytvoření podpoložek použijeme li tag s předchozí položkou a následně vložíme další ul tag</p>
+        </section>
+        <section>
+            <p>Příklad kódu:<br>
+                <code>
+                    <ul>
+                        <li>Položka 1</li>
+                        <li>Položka 2</li>
+                        <li>Položka 3</li>
+                        <li>Položka 4</li>
+                        <li>
+                            Položka 5
+                            <ul>
+                                <li>Podpoložka 1</li>
+                                <li>Podpoložka 2</li>
+                                <li>Podpoložka 3</li>
+                                <li>Podpoložka 4</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </code>
+            </p>
+        </section>
+        <footer>
+            ©Copyright 2023
+        </footer>
+    </article>
 </body>
 </html>
